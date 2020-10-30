@@ -25,10 +25,12 @@ font-family: "GearsOfPeace";
 }
 
 
+/*Barre de navigation*/
 .nav{
 display: flex;
 justify-content: space-between;
-background-image: url("./image/test_fond_futur.jpg");
+/*background-color: black;*/
+background-image: url("./image/test_fond1.jpg");
 border-bottom: 3px black solid;
 font-family: "GearsOfPeace";
 color: white;
@@ -55,7 +57,8 @@ color: white;
 #colonegauche {
 
     font-family: calibri light;
-    background-color:#152130;
+    /*background-color:#152130;*/
+    background-color: #0b0c0e;
     width: 20%;
     padding-bottom: 2%;
     display: flex;
@@ -110,11 +113,7 @@ color: white;
 {
     display: table-column;
     width: 80%;
-    margin-top: 4%;
-    margin-left: 10%;
-    margin-right: 10%;
-    color : white;
-    
+    background-color: #0e1012;
 }
 
 
@@ -127,7 +126,11 @@ color: white;
 
 }
 .colonedroite .formulaire{
-    margin-left: 200px;
+    
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color : white;
    
 }
 .colonedroite .envoyer{
@@ -140,6 +143,7 @@ color: white;
     font-size: 16px;
     font-family: "calibri";
     text-align: justify;
+    background-color: #283645;
 }
 /*
 .Mes_informations img{
