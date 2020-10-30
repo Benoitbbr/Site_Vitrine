@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" media="screen" type="text/css" href="css.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
         <title>Mon site</title>
 
         <meta name="description" content="Site Vitrine">
@@ -52,9 +53,28 @@
             <h2>Formulaire de contact</h2>
                 <input type="text" name="nom" size="40" length="40" value="nom">
 	            <input type="text" name="prenom" size="40" length="40" value="prenom">
-	            <input type="submit" name="envoyer" value="Envoyer">
+                <input type="submit" name="envoyer" value="Envoyer">
+
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
         </div>
     </section>
+
+    <script src="./js/bootstrap.js"></script>
     </body>
 
     <footer>
