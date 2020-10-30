@@ -7,8 +7,6 @@
 	margin: 0;
 	padding: 0;
     border: 0;
-    background-color: #283645;
-
 }
 
 #contact
@@ -20,53 +18,35 @@
 .site{
 list-style-type: none;
 color: white;
+
 background-color: #283645;
 margin-right: 500px ;
 font-family: "GearsOfPeace";
-
-
-}
-.site h1 {
-margin-left: 60px;
-margin-top:10px;
-margin-bottom:10px; 
-
-}
-.navigation ul{
-    list-style-type: none;
-    /*margin-left: 1461px;*/
-    margin-left: 0px;
-    margin-top:-50px;
-    padding: 0;
-    background-color: #283645;
-    overflow: hidden;
-
-
-}
-.navigation li {
-    float: right;
-
 }
 
-.navigation li a{
-color: white;
-padding: 20px;
-text-decoration: none;
-display: block;
+
+.nav{
+display: flex;
+justify-content: space-between;
+background-image: url("./image/test_fond_futur.jpg");
+border-bottom: 3px black solid;
 font-family: "GearsOfPeace";
+color: white;
 
-}
-.navigation li a:hover{
-    background-color: #1498d7;
-
-}
-.bordure {
-    border-color:black ;
-    border-width: 4px;
-    border-style: none none solid none;	
 
 }
 
+.nav li a{
+    opacity: 0.7;
+}
+
+.nav li a:hover{
+    /*background-color: #1498d7;*/
+    font-weight: bold;
+}
+.nav li a:focus{
+    scale: 0.95;
+}
 
 
 /*Page mecontacter*/
@@ -80,6 +60,7 @@ font-family: "GearsOfPeace";
     padding-bottom: 2%;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 #colonegauche h2
@@ -88,8 +69,6 @@ font-family: "GearsOfPeace";
     color:white;
     text-align: center;	
     margin: 0px;
-    
-
 }
 .coordonnees
 {
@@ -131,9 +110,11 @@ font-family: "GearsOfPeace";
 {
     display: table-column;
     width: 80%;
+    margin-top: 4%;
     margin-left: 10%;
     margin-right: 10%;
-    color : white
+    color : white;
+    
 }
 
 
@@ -177,4 +158,3 @@ font-family: "GearsOfPeace";
     
 
 }*/
-
