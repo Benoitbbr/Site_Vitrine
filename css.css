@@ -1,0 +1,183 @@
+@font-face {
+	font-family: "GearsOfPeace";
+	src: url('./Police/neuropol\ x\ rg.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+    border: 0;
+    background-color: #283645;
+
+}
+
+#contact
+{
+    display: flex;
+    word-wrap: break-word;
+}
+
+.site{
+list-style-type: none;
+color: white;
+background-color: #283645;
+margin-right: 500px ;
+font-family: "GearsOfPeace";
+
+
+}
+.site h1 {
+margin-left: 60px;
+margin-top:10px;
+margin-bottom:10px; 
+
+}
+.navigation ul{
+    list-style-type: none;
+    /*margin-left: 1461px;*/
+    margin-left: 0px;
+    margin-top:-50px;
+    padding: 0;
+    background-color: #283645;
+    overflow: hidden;
+
+
+}
+.navigation li {
+    float: right;
+
+}
+
+.navigation li a{
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+font-family: "GearsOfPeace";
+
+}
+.navigation li a:hover{
+    background-color: #1498d7;
+
+}
+.bordure {
+    border-color:black ;
+    border-width: 4px;
+    border-style: none none solid none;	
+
+}
+
+
+
+/*Page mecontacter*/
+
+/*partie gauche*/
+#colonegauche {
+
+    font-family: calibri light;
+    background-color:#152130;
+    width: 20%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#colonegauche h2
+{
+
+    color:white;
+    text-align: center;	
+    margin: 0px;
+    
+
+}
+.coordonnees
+{
+
+    display: flex;
+    text-align: center;	
+    flex-direction: column;
+    color: white;
+    padding: 6%;
+}
+
+.coordonnees h5
+{
+    font-weight: normal;
+    margin: 0;
+}
+
+#colonegauche  a
+{
+    color:white;
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+#colonegauche img
+{
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20% auto 20% auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px black;
+
+}
+
+/*partie droite*/
+
+#colonnedroite
+{
+    display: table-column;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+#colonnedroite h2
+{
+    border-color: rgba(51, 102, 255, 1);
+    border-width: 2px;
+    border-style: none none solid none;
+    padding-bottom: 7px;
+
+}
+
+#colonnedroite p
+{
+    text-align: left;
+    width: 70%;
+    flex-basis: 60%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: calibri light, verdana, serif;
+    font-size: 1.1vw;
+}
+
+/*Mon parcours*/ 
+.mon_parcours{
+    color: white;
+    font-size: 16px;
+    font-family: "calibri";
+    text-align: justify;
+}
+/*
+.Mes_informations img{
+    width: 180px;
+    height: 180px;
+    justify-content: space-around;
+    flex-direction: row;
+    
+.bordure_vertical {
+    border-color:black ;
+    border-width: 2px;
+    border-style: none none none solid;
+    margin-left: 300px;
+    
+    height: 500px;
+    
+
+}*/
+
