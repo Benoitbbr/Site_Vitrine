@@ -139,11 +139,37 @@ color: white;
 }
 /*Mon parcours*/ 
 .mon_parcours{
+    height: 100vh;
+    background-color: #0e1012;
+    display: flex;
+}
+
+.mon_parcours img{
+    width: 15px;
+    height: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.mon_parcours h2{
+    font-size: 48px;
+    font-family: "calibri";
     color: white;
-    font-size: 16px;
+    text-decoration: underline;
+}
+.mon_parcours .textparcours{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-size: 18px;
     font-family: "calibri";
     text-align: justify;
-    background-color: #283645;
+    color: white;
+    line-height: 2em;
+    
+
 }
 /*
 .Mes_informations img{
