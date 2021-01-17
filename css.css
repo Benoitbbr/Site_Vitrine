@@ -29,8 +29,8 @@ font-family: "GearsOfPeace";
 .nav{
 display: flex;
 justify-content: space-between;
-/*background-color: black;*/
-background-image: url("./image/test_fond1.jpg");
+background-color: black;
+/*background-image: url("./image/test_fond1.jpg");*/
 border-bottom: 3px black solid;
 font-family: "GearsOfPeace";
 color: white;
@@ -50,7 +50,7 @@ color: white;
     scale: 0.95;
 }
 
-
+/*--------------------------------------------------------------*/
 /*Page mecontacter*/
 
 /*partie gauche*/
@@ -58,7 +58,7 @@ color: white;
 
     font-family: calibri light;
     /*background-color:#152130;*/
-    background-color: #0b0c0e;
+    background-color: #584e46;
     width: 20%;
     padding-bottom: 2%;
     display: flex;
@@ -113,7 +113,8 @@ color: white;
 {
     display: table-column;
     width: 80%;
-    background-color: #0e1012;
+    /*background-color: #0e1012;*/
+    background-color: rgb(27, 27, 27);
 }
 
 
@@ -137,6 +138,7 @@ color: white;
    
    
 }
+/*--------------------------------------------------------------*/
 /*Mon parcours*/ 
 .mon_parcours{
     height: 100vh;
@@ -169,6 +171,49 @@ color: white;
     line-height: 2em;
     
 
+}
+
+/*--------------------------------------------------------------*/
+/*Projet*/
+
+#section1{
+    padding-top:50px;
+    height:500px;
+    color: #fff; 
+    position: relative;
+    /*background-color: crimson;*/
+    background-image: url("./image/navette2.jpg");
+}
+#section1 h1{
+
+    text-align: center;
+    font-family: "calibri";
+}
+
+#section1 .textespatial{
+
+    text-align: justify;
+    margin-left: 25px;
+    width: 1000px;
+    line-height: 2em;
+    margin-top: 5%;
+    font-family: "calibri";
+    background-color: crimson;
+}
+
+#section2 {
+    padding-top:50px;
+    height:800px;
+    color: #fff; 
+    background-color: #673ab7;
+    position: relative;
+    font-family: "calibri";
+}
+
+#section2 #map{
+    margin-left: 12%;
+    margin-right: 12%;
+    height:550px;
 }
 /*
 .Mes_informations img{

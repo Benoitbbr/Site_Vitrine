@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr"></html>
+
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" media="screen" type="text/css" href="css.css"/>
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
         <title>Mon site</title>
 
         <meta name="description" content="Site Vitrine">
@@ -17,7 +22,7 @@
       <!--menu de navigation-->
 
       <div class="nav">
-        <h1>Benoit Barbier</h1>
+        <h1>Benoît Barbier</h1>
         <nav class="navbar navbar-expand-lg navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,10 +48,40 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
               </form>-->
-            </div>
-            
+            </div>  
           </nav>
-    </div>
+      </div>
+
+
+      <div id="section1" class="container-fluid">
+        <h1>Les sites de lancement spatial</h1>
+        <div class=textespatial>
+        <p>Proin nec tellus id elit hendrerit molestie. Etiam auctor nunc id tempus venenatis. Ut at purus non mauris sollicitudin commodo sed nec arcu. Suspendisse 
+          luctus sed lacus id scelerisque. Nullam molestie sapien mi, vitae fermentum nulla lacinia tristique. Nulla et pharetra tortor. Nullam maximus urna sit amet 
+          eros laoreet egestas. Sed eu dictum risus. Nunc nisi elit, fringilla sed sapien vel, tristique fringilla mi. Maecenas egestas urna sapien, quis volutpat justo 
+          tincidunt a. Fusce a mauris efficitur, euismod justo vel, vehicula dui. Sed sit amet sollicitudin sapien. Aliquam erat volutpat. Suspendisse finibus dolor nisi, 
+          id pellentesque quam fringilla ut. Cras ac purus a tortor iaculis dignissim vitae quis ipsum. Mauris posuere ornare posuere. </p>
+        </div>
+       
+      </div>
+      <div id="section2" class="container-fluid">
+        <h1>Où trouver les sites de lancememt</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <div id="map"></div>
+            <script>
+              window.onload = function () {
+ 	            var map = L.map('map').setView([ 48.0067564,0.2003892],15);
+ 	            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		          attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	            }).addTo(map);
+              };
+            </script>
+          
+      </div>
+      </div>
+      
+
 
     <script src="./js/bootstrap.js"></script>
     </body>
