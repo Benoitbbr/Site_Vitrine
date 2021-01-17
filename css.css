@@ -177,35 +177,62 @@ color: white;
 /*Projet*/
 
 #section1{
-    padding-top:50px;
-    height:500px;
+    padding-top:30px;
+    height:1150px;
     color: #fff; 
     position: relative;
     /*background-color: crimson;*/
-    background-image: url("./image/navette2.jpg");
+    /*background-image: url("./image/navette2.jpg");*/
+    background-image: url("./image/Decollage_fusee_inverse.jpg");
+    /*opacity:0.97;*/
 }
 #section1 h1{
 
     text-align: center;
     font-family: "calibri";
+    font-size: 82px;
+    
+
 }
 
 #section1 .textespatial{
 
     text-align: justify;
-    margin-left: 25px;
-    width: 1000px;
+    margin-left: 40px;
+    width: 950px;
     line-height: 2em;
-    margin-top: 5%;
+    margin-top: 3%;
+    /*font-family: "calibri";*/
+    font-family: barlow-regular,sans-serif;
+    src: url('./Police/Barlow-Regular.ttf');
+}
+    /*background-color: crimson;*/
+
+
+#section1 img{
+    width: 15px;
+    height: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#section1 .agences_spatials{
+
+    
+    text-align: justify;
+    margin-left: 40px;
+    width: 950px;
     font-family: "calibri";
-    background-color: crimson;
+    /*background-color: rgb(220, 217, 20);*/
 }
 
 #section2 {
     padding-top:50px;
-    height:800px;
+    height:1000px;
     color: #fff; 
-    background-color: #673ab7;
+    background-color: #0e1012;
+    /*background-image: url("./image/navette2.jpg");*/
     position: relative;
     font-family: "calibri";
 }
